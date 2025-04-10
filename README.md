@@ -23,7 +23,10 @@ Interactive Interface: Allows users to upload an image and receive recommendatio
 
 2.2.2 SYSTEM ARCHITECTURE :
 In this project, we propose a model that uses Convolutional Neural Network and the Nearest neighbour backed recommender. As shown in the figure Initially, the neural networks are trained and then an inventory is selected for generating recommendations and a database is created for the items in inventory. The nearest neighbour’s algorithm is used to find the most relevant products based on the input image and recommendations are generated.
+![image](https://github.com/user-attachments/assets/23053c62-08f5-41ed-976a-1c9b92936b59)
 
+![image](https://github.com/user-attachments/assets/a63acd74-339f-4d78-a4f0-2e849a785701)
+![image](https://github.com/user-attachments/assets/ab945a2b-54e3-4568-87e8-3e07794db051)
 
 2.2 MAIN COMPONENTS OF PROJECTS
 1. Dataset and Data Handling
@@ -219,3 +222,10 @@ There is no need for expensive hardware, as all computations are performed in th
 The platform offers easy collaboration and sharing capabilities.
 Users have free access to powerful GPUs and TPUs for accelerated processing.
 The interactive and user-friendly interface allows for the combination of code, visuals, and explanations in a single document.
+
+
+CONCLUSION
+
+The Fashion Recommender System successfully integrates advanced technologies and methodologies to deliver a personalized and efficient recommendation experience. By leveraging image-based inputs, the system overcomes limitations of traditional recommendation systems reliant solely on purchase history. The system uses Python as the core programming language, implemented in Google Colab, a cloud-based environment with free GPU access, and integrates libraries such as TensorFlow, Keras, Scikit-learn, Pandas, and OpenCV for seamless functionality.
+The system generates 2,048-dimensional embeddings for images using a pre-trained ResNet50 model, capturing intricate visual features. Recommendations are based on cosine similarity between embeddings, ensuring high accuracy and relevance. Tools like Matplotlib, Seaborn, and t-SNE provide insightful visualizations, demonstrating clear clustering of garments by masterCategory and subCategory.
+With its modular design, users can easily customize input images (idx_ref) and adjust the number of recommendations (top_n). The system’s use of Swifter and Google Colab's GPU acceleration ensures efficient processing of the large dataset, making it scalable and adaptable. This implementation showcases the potential of combining deep learning and recommendation algorithms to enhance user experiences in e-commerce and the fashion industry.
